@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">RecycleViewToCours</string>
+
+    <string-array name="stagiaires">
+        <item>Paul</item>
+        <item>Malika</item>
+        <item>Yann</item>
+        <item>Suzanne</item>
+        <item>Charles</item>
+        <item>Achile</item>
+        <item>Patrice</item>
+        <item>Tarak</item>
+        <item>Sadrak</item>
+        <item>Dominique</item>
+        <item>Michael</item>
+        <item>Ressa</item>
+        <item>François</item>
+        <item>Luc</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+        <item>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</item>
+    </string-array>
+
+</resources>
