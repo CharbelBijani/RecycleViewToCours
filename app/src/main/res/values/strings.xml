@@ -1,21 +1,23 @@
 <resources>
     <string name="app_name">RecycleViewToCours</string>
+    <string name="tools_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ex sem, efficitur eget posuere at, mollis sit amet dolor.</string>
+    <string name="tools_nom_stagiaire">Nom stagiaire</string>
 
     <string-array name="stagiaires">
-        <item>Paul</item>
-        <item>Malika</item>
+        <item>Nelly</item>
+        <item>Charbel</item>
+        <item>Hicham</item>
+        <item>Walid</item>
+        <item>Samuel</item>
+        <item>Antoine</item>
+        <item>Ben</item>
+        <item>Nassir</item>
+        <item>Sonia</item>
+        <item>Ons</item>
+        <item>Anh Hoang</item>
+        <item>Lucienne</item>
         <item>Yann</item>
-        <item>Suzanne</item>
-        <item>Charles</item>
-        <item>Achile</item>
-        <item>Patrice</item>
-        <item>Tarak</item>
-        <item>Sadrak</item>
-        <item>Dominique</item>
-        <item>Michael</item>
-        <item>Ressa</item>
-        <item>François</item>
-        <item>Luc</item>
+        <item>Philippe</item>
     </string-array>
 
     <string-array name="description">

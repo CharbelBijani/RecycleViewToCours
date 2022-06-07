@@ -9,6 +9,9 @@ import androidx.recyclerview.widget.RecyclerView;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
+import com.example.recycleviewtocours.recycler_horizontal.MyRecyclerAdapterHorizontal;
+import com.example.recycleviewtocours.recycler_vertical.MyRecyclerAdapterVertical;
+
 import jp.wasabeef.recyclerview.animators.SlideInUpAnimator;
 
 public class MainActivity extends AppCompatActivity {
@@ -54,10 +57,10 @@ public class MainActivity extends AppCompatActivity {
 
     public void remplissageRecyclerVertical() {
         // Déclaration de l'adapter
-        MyRecyclerAdapter myRecyclerAdapter = new MyRecyclerAdapter(this,
+        MyRecyclerAdapterVertical myRecyclerAdapterVertical = new MyRecyclerAdapterVertical(this,
                 stagiaires, descs, avatars);
         // Ajout de l'adapteur au recyclerView
-        recyclerViewVertical.setAdapter(myRecyclerAdapter);
+        recyclerViewVertical.setAdapter(myRecyclerAdapterVertical);
         // Ajout d'un nouveau LinearLayout pour contenir les vues du RecyclerView
         // On peut alors choisir l'orientation vertical ou horizontal ou inverser la sélection
         LinearLayoutManager layoutManager = new LinearLayoutManager(this,
@@ -67,8 +70,8 @@ public class MainActivity extends AppCompatActivity {
                 DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
         recyclerViewVertical.addItemDecoration(itemDecoration);
 
-        //Drawable dividerDrawable = ContextCompat.getDrawable(this, R.drawable.divider_drawable);
-        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, 1);
+        Drawable dividerDrawable = ContextCompat.getDrawable(this, R.drawable.divider_drawable);
+        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
         recyclerViewVertical.addItemDecoration(dividerItemDecoration);
         // Animator
         recyclerViewVertical.setItemAnimator(new SlideInUpAnimator());

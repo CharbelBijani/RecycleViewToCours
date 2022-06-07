@@ -1,4 +1,4 @@
-package com.example.recycleviewtocours;
+package com.example.recycleviewtocours.decoration;
 
 import android.graphics.Canvas;
 import android.graphics.Rect;

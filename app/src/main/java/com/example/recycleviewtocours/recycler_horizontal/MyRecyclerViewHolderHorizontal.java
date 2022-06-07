@@ -1,4 +1,4 @@
-package com.example.recycleviewtocours;
+package com.example.recycleviewtocours.recycler_horizontal;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -7,6 +7,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
+
+import com.example.recycleviewtocours.R;
 
 public class MyRecyclerViewHolderHorizontal extends RecyclerView.ViewHolder {
 

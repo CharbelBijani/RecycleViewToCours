@@ -1,4 +1,4 @@
-package com.example.recycleviewtocours;
+package com.example.recycleviewtocours.recycler_vertical;
 
 import android.view.View;
 import android.widget.ImageView;
@@ -8,13 +8,15 @@ import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class MyRecyclerViewHolder extends RecyclerView.ViewHolder {
+import com.example.recycleviewtocours.R;
+
+public class MyRecyclerViewHolderVertical extends RecyclerView.ViewHolder {
 
     TextView stagiaire, description;
     ImageView avatar;
     ConstraintLayout mainLayout;
 
-    public MyRecyclerViewHolder(@NonNull View itemView) {
+    public MyRecyclerViewHolderVertical(@NonNull View itemView) {
         super(itemView);
         /** Le contenu **/
         stagiaire = itemView.findViewById(R.id.tv_stagiaireHorizontal);
