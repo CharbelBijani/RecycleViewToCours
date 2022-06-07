@@ -2,13 +2,13 @@ package com.example.recycleviewtocours;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
-import androidx.recyclerview.widget.DividerItemDecoration;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
+import com.example.recycleviewtocours.decoration.DividerItemDecoration;
 import com.example.recycleviewtocours.recycler_horizontal.MyRecyclerAdapterHorizontal;
 import com.example.recycleviewtocours.recycler_vertical.MyRecyclerAdapterVertical;
 
@@ -65,17 +65,19 @@ public class MainActivity extends AppCompatActivity {
         // On peut alors choisir l'orientation vertical ou horizontal ou inverser la sélection
         LinearLayoutManager layoutManager = new LinearLayoutManager(this,
                 LinearLayoutManager.VERTICAL, false);
-        // Decoration
-        RecyclerView.ItemDecoration itemDecoration = new
-                DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
+        recyclerViewVertical.setLayoutManager(layoutManager);
+
+        // Decorations
+        // Avec la classe par defaut
+//        RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
+        // Avec la classe perso modiifée et le drawable perso
+        Drawable dividerDrawable = ContextCompat.getDrawable(this, R.drawable.divider_drawable);
+        DividerItemDecoration itemDecoration = new DividerItemDecoration(dividerDrawable);
+
         recyclerViewVertical.addItemDecoration(itemDecoration);
 
-        Drawable dividerDrawable = ContextCompat.getDrawable(this, R.drawable.divider_drawable);
-        DividerItemDecoration dividerItemDecoration = new DividerItemDecoration(this, DividerItemDecoration.VERTICAL);
-        recyclerViewVertical.addItemDecoration(dividerItemDecoration);
         // Animator
         recyclerViewVertical.setItemAnimator(new SlideInUpAnimator());
-        recyclerViewVertical.setLayoutManager(layoutManager);
     }
 
     public void remplissageRecyclerHorizontal() {
